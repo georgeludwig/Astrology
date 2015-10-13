@@ -10,7 +10,10 @@ The class to run is under the test directory, named CompositeTest.
 
 Simply edit it to reflect your birthjday, and run the test.
 
-The output will look something like this:
+There is a dependency on one of my personal jar files, which is included under the libvs directory.
+Add it to your maven repo however you want to.
+
+The program output will look something like this:
 
 pisces and pisces with tiger and horse has a compatibility of 63
 and are of the following ages 1,13,25,37,49,61,73,85
