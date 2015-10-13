@@ -9,12 +9,6 @@
   <name>georgeludwigtech-astrology</name>
   <url>http://www.georgeludwigtech.com</url>
 
-  <scm>
-    <connection>scm:svn:https://devtools.georgeludwigtech.com/svn/georgeludwigtech/trunk/astrology</connection>
-    <developerConnection>scm:svn:https://devtools.georgeludwigtech.com/svn/georgeludwigtech/trunk/astrology</developerConnection>
-    <url>https://devtools.georgeludwigtech.com/svn/georgeludwigtech/trunk/astrology</url> 
-  </scm>
-
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
@@ -65,19 +59,5 @@
       <version>1.0.5</version>
     </dependency>
   </dependencies>
-
-	<distributionManagement>
-	    <repository>
-	        <id>devtools.georgeludwigtech.com</id>
-	        <name>devtools.georgeludwigtech.com-releases</name>
-	        <url>http://devtools.georgeludwigtech.com:8081/artifactory/libs-releases-local</url>
-	    </repository>
-	    <snapshotRepository>
-	        <id>devtools.georgeludwigtech.com</id>
-	        <name>devtools.georgeludwigtech.com-snapshots</name>
-	        <url>http://devtools.georgeludwigtech.com:8081/artifactory/libs-snapshots-local</url>
-	    </snapshotRepository>
-	</distributionManagement>
-
 
 </project>
