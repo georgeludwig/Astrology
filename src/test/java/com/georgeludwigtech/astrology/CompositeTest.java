@@ -32,51 +32,11 @@ public class CompositeTest {
 		//WesternSign.setWeightMode(WesternSign.DECIMAL_WEIGHT);
 		
 		Calendar birthDate=new GregorianCalendar();
-		
-		// Sarah Getchius
-//		birthDate.set(Calendar.YEAR, 1981);
-//		birthDate.set(Calendar.MONTH, Calendar.APRIL);
-//		birthDate.set(Calendar.DAY_OF_MONTH,11);
-		
-		// Erin Lukas
-//		birthDate.set(Calendar.YEAR, 1978);
-//		birthDate.set(Calendar.MONTH, Calendar.DECEMBER);
-//		birthDate.set(Calendar.DAY_OF_MONTH,5);
-		
-		// George
-		birthDate.set(Calendar.YEAR, 1962);
-		birthDate.set(Calendar.MONTH, Calendar.FEBRUARY);
-		birthDate.set(Calendar.DAY_OF_MONTH, 23);
-
-		// Angie
-//		birthDate.set(Calendar.YEAR, 1966);
-//		birthDate.set(Calendar.MONTH, Calendar.DECEMBER);
-//		birthDate.set(Calendar.DAY_OF_MONTH, 2);
-
-		// Jen
-//		birthDate.set(Calendar.YEAR, 1967);
-//		birthDate.set(Calendar.MONTH, Calendar.JANUARY);
-//		birthDate.set(Calendar.DAY_OF_MONTH, 26);
-
-		// Janine
-//		birthDate.set(Calendar.YEAR, 1969);
-//		birthDate.set(Calendar.MONTH, Calendar.APRIL);
-//		birthDate.set(Calendar.DAY_OF_MONTH, 15);
-		
-		// rikki
-//		birthDate.set(Calendar.YEAR, 1983);
-//		birthDate.set(Calendar.MONTH, Calendar.SEPTEMBER);
-//		birthDate.set(Calendar.DAY_OF_MONTH,14 );
-		
-		// Ruriko
-//		birthDate.set(Calendar.YEAR, 1987);
-//		birthDate.set(Calendar.MONTH, Calendar.JANUARY);
-//		birthDate.set(Calendar.DAY_OF_MONTH, 12);
-		
-		// Karl
-//		birthDate.set(Calendar.YEAR, 1960);
-//		birthDate.set(Calendar.MONTH, Calendar.JULY);
-//		birthDate.set(Calendar.DAY_OF_MONTH, 17);
+    
+        // Set this to your birthdate
+		birthDate.set(Calendar.YEAR, 1976);
+		birthDate.set(Calendar.MONTH, Calendar.JANUARY);
+		birthDate.set(Calendar.DAY_OF_MONTH, 15);
 		
 		WesternSign wSign=(WesternSign)WesternZodiac.getSign(birthDate.getTimeInMillis());
 		ChineseSign cSign=(ChineseSign)ChineseZodiac.getSign(birthDate.getTimeInMillis());
