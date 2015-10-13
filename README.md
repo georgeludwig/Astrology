@@ -8,7 +8,7 @@ Because of the age component, you need to run the program regularly to get an up
 
 The class to run is under the test directory, named CompositeTest.
 
-Simply edit it to reflect your birthjday, and run the test.
+Simply edit it to reflect your birthday, and run the test.
 
 There is a dependency on one of my personal jar files, which is included under the libvs directory.
 Add it to your maven repo however you want to.
