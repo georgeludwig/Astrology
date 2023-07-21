@@ -1,7 +1,7 @@
 # Astrology
 A fun project that mixes Chinese and Western astrology to create a composite compatibility score.
 
-It's predictive, in the sense that it will tell you the sign of thje person you are looking for, 
+It's predictive, in the sense that it will tell you the sign of the person you are looking for, 
 as well as their age.
 
 Because of the age component, you need to run the program regularly to get an up-to-date list.
